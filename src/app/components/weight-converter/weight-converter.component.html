@@ -1,0 +1,30 @@
+<div class="converter">
+  <div class="form-group">
+    <input [(ngModel)]="inputValue" type="number" placeholder="{{ 'PLACEHOLDER.ENTER_VALUE' | translate }}" (ngModelChange)="convertFromInput()" />
+    <select [(ngModel)]="inputUnit" (change)="convertFromInput()">
+      <option value="kilograms">{{ 'UNITS.KILOGRAMS' | translate }}</option>
+      <option value="grams">{{ 'UNITS.GRAMS' | translate }}</option>
+      <option value="pounds">{{ 'UNITS.POUNDS' | translate }}</option>
+      <option value="ounces">{{ 'UNITS.OUNCES' | translate }}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <input [(ngModel)]="outputValue" type="number" placeholder="{{ 'PLACEHOLDER.ENTER_VALUE' | translate }}" (ngModelChange)="convertFromOutput()" />
+    <select [(ngModel)]="outputUnit" (change)="convertFromOutput()">
+      <option value="kilograms">{{ 'UNITS.KILOGRAMS' | translate }}</option>
+      <option value="grams">{{ 'UNITS.GRAMS' | translate }}</option>
+      <option value="pounds">{{ 'UNITS.POUNDS' | translate }}</option>
+      <option value="ounces">{{ 'UNITS.OUNCES' | translate }}</option>
+    </select>
+  </div>
+</div>
+
+<div class="sample-conversions">
+  <ul>
+    <li>{{ 'SAMPLES.KG_TO_G' | translate }}</li>
+    <li>{{ 'SAMPLES.KG_TO_LB' | translate }}</li>
+    <li>{{ 'SAMPLES.LB_TO_OZ' | translate }}</li>
+    <li>{{ 'SAMPLES.OZ_TO_G' | translate }}</li>
+  </ul>
+</div>

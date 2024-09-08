@@ -1,0 +1,30 @@
+<div class="converter">
+  <div class="form-group">
+    <input [(ngModel)]="inputValue" type="number" placeholder="{{ 'PLACEHOLDER.ENTER_VALUE' | translate }}" (ngModelChange)="convertFromInput()" />
+    <select [(ngModel)]="inputUnit" (change)="convertFromInput()">
+      <option value="liters">{{ 'UNITS.LITERS' | translate }}</option>
+      <option value="milliliters">{{ 'UNITS.MILLILITERS' | translate }}</option>
+      <option value="gallons">{{ 'UNITS.GALLONS' | translate }}</option>
+      <option value="cups">{{ 'UNITS.CUPS' | translate }}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <input [(ngModel)]="outputValue" type="number" placeholder="{{ 'PLACEHOLDER.ENTER_VALUE' | translate }}" (ngModelChange)="convertFromOutput()" />
+    <select [(ngModel)]="outputUnit" (change)="convertFromOutput()">
+      <option value="liters">{{ 'UNITS.LITERS' | translate }}</option>
+      <option value="milliliters">{{ 'UNITS.MILLILITERS' | translate }}</option>
+      <option value="gallons">{{ 'UNITS.GALLONS' | translate }}</option>
+      <option value="cups">{{ 'UNITS.CUPS' | translate }}</option>
+    </select>
+  </div>
+</div>
+
+<div class="sample-conversions">
+  <ul>
+    <li>{{ 'SAMPLES.L_TO_ML' | translate }}</li>
+    <li>{{ 'SAMPLES.L_TO_GAL' | translate }}</li>
+    <li>{{ 'SAMPLES.CUP_TO_L' | translate }}</li>
+    <li>{{ 'SAMPLES.GAL_TO_ML' | translate }}</li>
+  </ul>
+</div>

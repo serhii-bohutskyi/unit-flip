@@ -1,0 +1,32 @@
+<div class="converter">
+  <div class="form-group">
+    <!-- Input 1: Convert from this value to the second input -->
+    <input [(ngModel)]="inputValue" type="number" placeholder="{{ 'PLACEHOLDER.ENTER_VALUE' | translate }}"
+           (ngModelChange)="convertFromInput()" />
+    <select [(ngModel)]="inputUnit" (change)="convertFromInput()">
+      <option value="Celsius">{{ 'UNITS.CELSIUS' | translate }}</option>
+      <option value="Fahrenheit">{{ 'UNITS.FAHRENHEIT' | translate }}</option>
+      <option value="Kelvin">{{ 'UNITS.KELVIN' | translate }}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <!-- Input 2: Convert from this value to the first input -->
+    <input [(ngModel)]="outputValue" type="number" placeholder="{{ 'PLACEHOLDER.ENTER_VALUE' | translate }}"
+           (ngModelChange)="convertFromOutput()" />
+    <select [(ngModel)]="outputUnit" (change)="convertFromOutput()">
+      <option value="Celsius">{{ 'UNITS.CELSIUS' | translate }}</option>
+      <option value="Fahrenheit">{{ 'UNITS.FAHRENHEIT' | translate }}</option>
+      <option value="Kelvin">{{ 'UNITS.KELVIN' | translate }}</option>
+    </select>
+  </div>
+</div>
+
+<div class="sample-conversions">
+  <ul>
+    <li>{{ 'SAMPLES.C_TO_F' | translate }}</li>
+    <li>{{ 'SAMPLES.C_TO_K' | translate }}</li>
+    <li>{{ 'SAMPLES.F_TO_C' | translate }}</li>
+    <li>{{ 'SAMPLES.K_TO_F' | translate }}</li>
+  </ul>
+</div>

@@ -1,0 +1,59 @@
+{
+  "META": {
+    "TITLE": "Meilleur Convertisseur d'Unités - Convertir Longueur, Poids, Volume et Température",
+    "DESCRIPTION": "Convertissez facilement longueur, poids, volume et température avec notre outil gratuit de conversion d'unités. Prend en charge toutes les unités principales.",
+    "KEYWORDS": "convertisseur d'unités, convertisseur de longueur, convertisseur de poids, convertisseur de volume, convertisseur de température"
+  },
+  "TITLE": "Convertisseur d'Unités",
+  "HEADER": {
+    "TITLE": "Convertisseur d'Unités Tout-en-Un",
+    "SUBTITLE": "Convertissez facilement Longueur, Poids, Volume et Température en quelques clics."
+  },
+  "PLACEHOLDER": {
+    "ENTER_VALUE": "Entrez la valeur"
+  },
+  "UNITS": {
+    "METERS": "Mètres",
+    "FEET": "Pieds",
+    "INCHES": "Pouces",
+    "KILOMETERS": "Kilomètres",
+    "MILES": "Miles",
+    "CELSIUS": "Celsius",
+    "FAHRENHEIT": "Fahrenheit",
+    "KELVIN": "Kelvin",
+    "LITERS": "Litres",
+    "MILLILITERS": "Millilitres",
+    "GALLONS": "Gallons",
+    "CUPS": "Tasses",
+    "KILOGRAMS": "Kilogrammes",
+    "GRAMS": "Grammes",
+    "POUNDS": "Livres",
+    "OUNCES": "Onces"
+  },
+  "SAMPLES": {
+    "KM_TO_M": "1 Kilomètre = 1000 Mètres",
+    "M_TO_FEET": "1 Mètre = 3.281 Pieds",
+    "M_TO_INCHES": "1 Mètre = 39.37 Pouces",
+    "MILES_TO_KM": "1 Mile = 1.609 Kilomètres",
+    "IN_TO_FEET": "12 Pouces = 1 Pied",
+    "FEET_TO_MILES": "5280 Pieds = 1 Mile",
+    "C_TO_F": "0°C = 32°F",
+    "C_TO_K": "0°C = 273.15 K",
+    "F_TO_C": "32°F = 0°C",
+    "K_TO_F": "0 K = -459.67°F",
+    "L_TO_ML": "1 Litre = 1000 Millilitres",
+    "L_TO_GAL": "1 Litre = 0.2642 Gallons",
+    "CUP_TO_L": "1 Tasse = 0.2366 Litres",
+    "GAL_TO_ML": "1 Gallon = 3785.41 Millilitres",
+    "KG_TO_G": "1 Kilogramme = 1000 Grammes",
+    "KG_TO_LB": "1 Kilogramme = 2.205 Livres",
+    "LB_TO_OZ": "1 Livre = 16 Onces",
+    "OZ_TO_G": "1 Once = 28.35 Grammes"
+  },
+  "TABS": {
+    "LENGTH": "Longueur",
+    "WEIGHT": "Poids",
+    "VOLUME": "Volume",
+    "TEMPERATURE": "Température"
+  }
+}

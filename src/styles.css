@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global Styles for index.html */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+  background-color: #f4f4f9;
+  text-align: center; /* Center-align text globally */
+}
+
+/* Center the content inside the body using Flexbox */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Ensure elements stack from top */
+  align-items: center;
+  min-height: 100vh; /* Ensure the body takes full viewport height */
+  margin: 0;
+}
+
+/* Ensure the app-root takes up the full width */
+app-root {
+  width: 100%;
+}
+
+/* Container styling (inside app-root) */
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Increase container size */
+  width: 100%;
+  text-align: center;
+  margin-top: 40px; /* Add space between header and container */
+}
+
+/* For smaller screens, adjust padding and layout */
+@media (max-width: 500px) {
+  .container {
+    padding: 20px;
+    max-width: 95%;
+  }
+}

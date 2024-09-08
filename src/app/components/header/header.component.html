@@ -1,0 +1,33 @@
+<div class="header">
+  <div class="header-left">
+    <!-- Language Selector (Hardcoded) -->
+    <select (change)="switchLanguage($event)">
+      <option value="en" [selected]="currentLang === 'en'">English</option>
+      <option value="es" [selected]="currentLang === 'es'">Español</option>
+      <option value="fr" [selected]="currentLang === 'fr'">Français</option>
+      <option value="pt" [selected]="currentLang === 'pt'">Português</option>
+      <option value="de" [selected]="currentLang === 'de'">Deutsch</option>
+      <option value="pl" [selected]="currentLang === 'pl'">Polski</option>
+      <option value="ru" [selected]="currentLang === 'ru'">Русский</option>
+      <option value="tr" [selected]="currentLang === 'tr'">Türkçe</option>
+      <option value="zh" [selected]="currentLang === 'zh'">中文</option>
+      <option value="ja" [selected]="currentLang === 'ja'">日本語</option>
+      <option value="ko" [selected]="currentLang === 'ko'">한국어</option>
+      <option value="ar" [selected]="currentLang === 'ar'">العربية</option>
+      <option value="hi" [selected]="currentLang === 'hi'">हिंदी</option>
+      <option value="id" [selected]="currentLang === 'id'">Bahasa Indonesia</option>
+    </select>
+  </div>
+
+  <div class="description">
+    <h1>{{ 'HEADER.TITLE' | translate }}</h1>
+    <p>{{ 'HEADER.SUBTITLE' | translate }}</p>
+  </div>
+
+  <div class="header-right buy-coffee">
+    <!-- Buy Me a Coffee button (Hardcoded) -->
+    <a href="https://www.buymeacoffee.com/serhii_bohutskyi" target="_blank" class="buy-coffee-button">
+      ☕ Buy Me a Coffee
+    </a>
+  </div>
+</div>

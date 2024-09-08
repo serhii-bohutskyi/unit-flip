@@ -1,0 +1,59 @@
+{
+  "META": {
+    "TITLE": "最佳单位转换器 - 转换长度、重量、体积和温度",
+    "DESCRIPTION": "使用我们的免费单位转换工具轻松转换长度、重量、体积和温度。支持所有主要单位。",
+    "KEYWORDS": "单位转换器, 长度转换器, 重量转换器, 体积转换器, 温度转换器"
+  },
+  "TITLE": "单位转换器",
+  "HEADER": {
+    "TITLE": "全能单位转换器",
+    "SUBTITLE": "只需几次点击即可轻松转换长度、重量、体积和温度。"
+  },
+  "PLACEHOLDER": {
+    "ENTER_VALUE": "输入值"
+  },
+  "UNITS": {
+    "METERS": "米",
+    "FEET": "英尺",
+    "INCHES": "英寸",
+    "KILOMETERS": "公里",
+    "MILES": "英里",
+    "CELSIUS": "摄氏度",
+    "FAHRENHEIT": "华氏度",
+    "KELVIN": "开尔文",
+    "LITERS": "升",
+    "MILLILITERS": "毫升",
+    "GALLONS": "加仑",
+    "CUPS": "杯",
+    "KILOGRAMS": "千克",
+    "GRAMS": "克",
+    "POUNDS": "磅",
+    "OUNCES": "盎司"
+  },
+  "SAMPLES": {
+    "KM_TO_M": "1公里 = 1000米",
+    "M_TO_FEET": "1米 = 3.281英尺",
+    "M_TO_INCHES": "1米 = 39.37英寸",
+    "MILES_TO_KM": "1英里 = 1.609公里",
+    "IN_TO_FEET": "12英寸 = 1英尺",
+    "FEET_TO_MILES": "5280英尺 = 1英里",
+    "C_TO_F": "0°C = 32°F",
+    "C_TO_K": "0°C = 273.15 K",
+    "F_TO_C": "32°F = 0°C",
+    "K_TO_F": "0 K = -459.67°F",
+    "L_TO_ML": "1升 = 1000毫升",
+    "L_TO_GAL": "1升 = 0.2642加仑",
+    "CUP_TO_L": "1杯 = 0.2366升",
+    "GAL_TO_ML": "1加仑 = 3785.41毫升",
+    "KG_TO_G": "1千克 = 1000克",
+    "KG_TO_LB": "1千克 = 2.205磅",
+    "LB_TO_OZ": "1磅 = 16盎司",
+    "OZ_TO_G": "1盎司 = 28.35克"
+  },
+  "TABS": {
+    "LENGTH": "长度",
+    "WEIGHT": "重量",
+    "VOLUME": "体积",
+    "TEMPERATURE": "温度"
+  }
+}

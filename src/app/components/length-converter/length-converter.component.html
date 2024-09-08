@@ -1,0 +1,34 @@
+<div class="converter">
+  <div class="form-group">
+    <input [(ngModel)]="inputValue" type="number" placeholder="{{ 'PLACEHOLDER.ENTER_VALUE' | translate }}" (ngModelChange)="convertFromInput()" />
+    <select [(ngModel)]="inputUnit" (change)="convertFromInput()">
+      <option value="meters">{{ 'UNITS.METERS' | translate }}</option>
+      <option value="feet">{{ 'UNITS.FEET' | translate }}</option>
+      <option value="inches">{{ 'UNITS.INCHES' | translate }}</option>
+      <option value="kilometers">{{ 'UNITS.KILOMETERS' | translate }}</option>
+      <option value="miles">{{ 'UNITS.MILES' | translate }}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <input [(ngModel)]="outputValue" type="number" placeholder="{{ 'PLACEHOLDER.ENTER_VALUE' | translate }}" (ngModelChange)="convertFromOutput()" />
+    <select [(ngModel)]="outputUnit" (change)="convertFromOutput()">
+      <option value="meters">{{ 'UNITS.METERS' | translate }}</option>
+      <option value="feet">{{ 'UNITS.FEET' | translate }}</option>
+      <option value="inches">{{ 'UNITS.INCHES' | translate }}</option>
+      <option value="kilometers">{{ 'UNITS.KILOMETERS' | translate }}</option>
+      <option value="miles">{{ 'UNITS.MILES' | translate }}</option>
+    </select>
+  </div>
+</div>
+
+<div class="sample-conversions">
+  <ul>
+    <li>{{ 'SAMPLES.KM_TO_M' | translate }}</li>
+    <li>{{ 'SAMPLES.M_TO_FEET' | translate }}</li>
+    <li>{{ 'SAMPLES.M_TO_INCHES' | translate }}</li>
+    <li>{{ 'SAMPLES.MILES_TO_KM' | translate }}</li>
+    <li>{{ 'SAMPLES.IN_TO_FEET' | translate }}</li>
+    <li>{{ 'SAMPLES.FEET_TO_MILES' | translate }}</li>
+  </ul>
+</div>

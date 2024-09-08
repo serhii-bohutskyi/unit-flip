@@ -1,0 +1,59 @@
+{
+  "META": {
+    "TITLE": "En İyi Birim Dönüştürücü - Uzunluk, Ağırlık, Hacim ve Sıcaklık Dönüştürme",
+    "DESCRIPTION": "Uzunluk, ağırlık, hacim ve sıcaklığı ücretsiz birim dönüştürücümüzle kolayca dönüştürün. Tüm ana birimleri destekler.",
+    "KEYWORDS": "birim dönüştürücü, uzunluk dönüştürücü, ağırlık dönüştürücü, hacim dönüştürücü, sıcaklık dönüştürücü"
+  },
+  "TITLE": "Birim Dönüştürücü",
+  "HEADER": {
+    "TITLE": "Tümü Bir Arada Birim Dönüştürücü",
+    "SUBTITLE": "Uzunluğu, Ağırlığı, Hacmi ve Sıcaklığı sadece birkaç tıklamayla kolayca dönüştürün."
+  },
+  "PLACEHOLDER": {
+    "ENTER_VALUE": "Değeri girin"
+  },
+  "UNITS": {
+    "METERS": "Metre",
+    "FEET": "Fit",
+    "INCHES": "İnç",
+    "KILOMETERS": "Kilometre",
+    "MILES": "Mil",
+    "CELSIUS": "Santigrat",
+    "FAHRENHEIT": "Fahrenheit",
+    "KELVIN": "Kelvin",
+    "LITERS": "Litre",
+    "MILLILITERS": "Mililitre",
+    "GALLONS": "Galon",
+    "CUPS": "Bardak",
+    "KILOGRAMS": "Kilogram",
+    "GRAMS": "Gram",
+    "POUNDS": "Pound",
+    "OUNCES": "Ons"
+  },
+  "SAMPLES": {
+    "KM_TO_M": "1 Kilometre = 1000 Metre",
+    "M_TO_FEET": "1 Metre = 3.281 Fit",
+    "M_TO_INCHES": "1 Metre = 39.37 İnç",
+    "MILES_TO_KM": "1 Mil = 1.609 Kilometre",
+    "IN_TO_FEET": "12 İnç = 1 Fit",
+    "FEET_TO_MILES": "5280 Fit = 1 Mil",
+    "C_TO_F": "0°C = 32°F",
+    "C_TO_K": "0°C = 273.15 K",
+    "F_TO_C": "32°F = 0°C",
+    "K_TO_F": "0 K = -459.67°F",
+    "L_TO_ML": "1 Litre = 1000 Mililitre",
+    "L_TO_GAL": "1 Litre = 0.2642 Galon",
+    "CUP_TO_L": "1 Bardak = 0.2366 Litre",
+    "GAL_TO_ML": "1 Galon = 3785.41 Mililitre",
+    "KG_TO_G": "1 Kilogram = 1000 Gram",
+    "KG_TO_LB": "1 Kilogram = 2.205 Pound",
+    "LB_TO_OZ": "1 Pound = 16 Ons",
+    "OZ_TO_G": "1 Ons = 28.35 Gram"
+  },
+  "TABS": {
+    "LENGTH": "Uzunluk",
+    "WEIGHT": "Ağırlık",
+    "VOLUME": "Hacim",
+    "TEMPERATURE": "Sıcaklık"
+  }
+}

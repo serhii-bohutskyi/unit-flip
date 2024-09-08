@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.header-left {
+  /* Align items on the left */
+}
+
+.header-right {
+  /* Align items on the right */
+}
+
+.description {
+  text-align: center;
+  flex-grow: 1;
+  padding: 0 10px; /* Add spacing between left and right */
+}
+
+select {
+  padding: 10px 20px; /* Match padding of the BuyMeCoffee button */
+  font-size: 16px;    /* Match font size of the BuyMeCoffee button */
+  font-weight: bold;  /* Match font weight */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white; /* Keep background white */
+  color: #333;             /* Text color */
+  cursor: pointer;         /* Add pointer cursor for better UX */
+  transition: box-shadow 0.3s ease; /* Add a transition for hover effect */
+}
+
+select:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+.buy-coffee-button {
+  background-color: #ffdd57;
+  padding: 10px 20px;
+  color: #333;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;  /* Match font size */
+}
+
+.buy-coffee-button:hover {
+  background-color: #ffc107;
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 500px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-left,
+  .header-right {
+    margin-top: 10px;
+  }
+
+  .description {
+    padding: 10px 0;
+  }
+}

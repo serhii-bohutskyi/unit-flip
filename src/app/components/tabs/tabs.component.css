@@ -1,0 +1,27 @@
+/* tabs.component.css */
+.tabs {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.tabs li {
+  margin: 0 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tabs li.active {
+  color: white;
+  background-color: #007bff;
+  border-radius: 8px;
+}
+
+.tabs li:hover {
+  background-color: #0056b3;
+  color: white;
+  border-radius: 8px;
+}
