@@ -1,0 +1,59 @@
+{
+  "META": {
+    "TITLE": "Mejor Convertidor de Unidades - Convierte Longitud, Peso, Volumen y Temperatura",
+    "DESCRIPTION": "Convierte fácilmente longitud, peso, volumen y temperatura con nuestra herramienta gratuita de conversión de unidades. Soporta todas las unidades principales.",
+    "KEYWORDS": "convertidor de unidades, convertidor de longitud, convertidor de peso, convertidor de volumen, convertidor de temperatura"
+  },
+  "TITLE": "Convertidor de Unidades",
+  "HEADER": {
+    "TITLE": "Convertidor de Unidades Todo en Uno",
+    "SUBTITLE": "Convierte fácilmente Longitud, Peso, Volumen y Temperatura en solo unos clics."
+  },
+  "PLACEHOLDER": {
+    "ENTER_VALUE": "Introduce el valor"
+  },
+  "UNITS": {
+    "METERS": "Metros",
+    "FEET": "Pies",
+    "INCHES": "Pulgadas",
+    "KILOMETERS": "Kilómetros",
+    "MILES": "Millas",
+    "CELSIUS": "Celsius",
+    "FAHRENHEIT": "Fahrenheit",
+    "KELVIN": "Kelvin",
+    "LITERS": "Litros",
+    "MILLILITERS": "Mililitros",
+    "GALLONS": "Galones",
+    "CUPS": "Tazas",
+    "KILOGRAMS": "Kilogramos",
+    "GRAMS": "Gramos",
+    "POUNDS": "Libras",
+    "OUNCES": "Onzas"
+  },
+  "SAMPLES": {
+    "KM_TO_M": "1 Kilómetro = 1000 Metros",
+    "M_TO_FEET": "1 Metro = 3.281 Pies",
+    "M_TO_INCHES": "1 Metro = 39.37 Pulgadas",
+    "MILES_TO_KM": "1 Milla = 1.609 Kilómetros",
+    "IN_TO_FEET": "12 Pulgadas = 1 Pie",
+    "FEET_TO_MILES": "5280 Pies = 1 Milla",
+    "C_TO_F": "0°C = 32°F",
+    "C_TO_K": "0°C = 273.15 K",
+    "F_TO_C": "32°F = 0°C",
+    "K_TO_F": "0 K = -459.67°F",
+    "L_TO_ML": "1 Litro = 1000 Mililitros",
+    "L_TO_GAL": "1 Litro = 0.2642 Galones",
+    "CUP_TO_L": "1 Taza = 0.2366 Litros",
+    "GAL_TO_ML": "1 Galón = 3785.41 Mililitros",
+    "KG_TO_G": "1 Kilogramo = 1000 Gramos",
+    "KG_TO_LB": "1 Kilogramo = 2.205 Libras",
+    "LB_TO_OZ": "1 Libra = 16 Onzas",
+    "OZ_TO_G": "1 Onza = 28.35 Gramos"
+  },
+  "TABS": {
+    "LENGTH": "Longitud",
+    "WEIGHT": "Peso",
+    "VOLUME": "Volumen",
+    "TEMPERATURE": "Temperatura"
+  }
+}

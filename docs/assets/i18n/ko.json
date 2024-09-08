@@ -1,0 +1,59 @@
+{
+  "META": {
+    "TITLE": "최고의 단위 변환기 - 길이, 무게, 부피 및 온도 변환",
+    "DESCRIPTION": "길이, 무게, 부피 및 온도를 손쉽게 변환할 수 있는 무료 단위 변환 도구입니다. 모든 주요 단위를 지원합니다.",
+    "KEYWORDS": "단위 변환기, 길이 변환기, 무게 변환기, 부피 변환기, 온도 변환기"
+  },
+  "TITLE": "단위 변환기",
+  "HEADER": {
+    "TITLE": "올인원 단위 변환기",
+    "SUBTITLE": "길이, 무게, 부피 및 온도를 몇 번의 클릭만으로 쉽게 변환하세요."
+  },
+  "PLACEHOLDER": {
+    "ENTER_VALUE": "값 입력"
+  },
+  "UNITS": {
+    "METERS": "미터",
+    "FEET": "피트",
+    "INCHES": "인치",
+    "KILOMETERS": "킬로미터",
+    "MILES": "마일",
+    "CELSIUS": "섭씨",
+    "FAHRENHEIT": "화씨",
+    "KELVIN": "켈빈",
+    "LITERS": "리터",
+    "MILLILITERS": "밀리리터",
+    "GALLONS": "갤런",
+    "CUPS": "컵",
+    "KILOGRAMS": "킬로그램",
+    "GRAMS": "그램",
+    "POUNDS": "파운드",
+    "OUNCES": "온스"
+  },
+  "SAMPLES": {
+    "KM_TO_M": "1킬로미터 = 1000미터",
+    "M_TO_FEET": "1미터 = 3.281피트",
+    "M_TO_INCHES": "1미터 = 39.37인치",
+    "MILES_TO_KM": "1마일 = 1.609킬로미터",
+    "IN_TO_FEET": "12인치 = 1피트",
+    "FEET_TO_MILES": "5280피트 = 1마일",
+    "C_TO_F": "0°C = 32°F",
+    "C_TO_K": "0°C = 273.15 K",
+    "F_TO_C": "32°F = 0°C",
+    "K_TO_F": "0 K = -459.67°F",
+    "L_TO_ML": "1리터 = 1000밀리리터",
+    "L_TO_GAL": "1리터 = 0.2642갤런",
+    "CUP_TO_L": "1컵 = 0.2366리터",
+    "GAL_TO_ML": "1갤런 = 3785.41밀리리터",
+    "KG_TO_G": "1킬로그램 = 1000그램",
+    "KG_TO_LB": "1킬로그램 = 2.205파운드",
+    "LB_TO_OZ": "1파운드 = 16온스",
+    "OZ_TO_G": "1온스 = 28.35그램"
+  },
+  "TABS": {
+    "LENGTH": "길이",
+    "WEIGHT": "무게",
+    "VOLUME": "부피",
+    "TEMPERATURE": "온도"
+  }
+}

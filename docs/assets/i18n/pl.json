@@ -1,0 +1,59 @@
+{
+  "META": {
+    "TITLE": "Najlepszy Konwerter Jednostek - Przelicz Długość, Wagę, Objętość i Temperaturę",
+    "DESCRIPTION": "Łatwo przeliczaj długość, wagę, objętość i temperaturę za pomocą naszego darmowego narzędzia do konwersji jednostek. Obsługuje wszystkie główne jednostki.",
+    "KEYWORDS": "konwerter jednostek, przelicznik długości, przelicznik wagi, przelicznik objętości, przelicznik temperatury"
+  },
+  "TITLE": "Konwerter Jednostek",
+  "HEADER": {
+    "TITLE": "Uniwersalny Konwerter Jednostek",
+    "SUBTITLE": "Łatwo przeliczaj Długość, Wagę, Objętość i Temperaturę w kilku kliknięciach."
+  },
+  "PLACEHOLDER": {
+    "ENTER_VALUE": "Wprowadź wartość"
+  },
+  "UNITS": {
+    "METERS": "Metry",
+    "FEET": "Stopy",
+    "INCHES": "Cale",
+    "KILOMETERS": "Kilometry",
+    "MILES": "Mile",
+    "CELSIUS": "Celsjusz",
+    "FAHRENHEIT": "Fahrenheit",
+    "KELVIN": "Kelwin",
+    "LITERS": "Litry",
+    "MILLILITERS": "Mililitry",
+    "GALLONS": "Galony",
+    "CUPS": "Kubki",
+    "KILOGRAMS": "Kilogramy",
+    "GRAMS": "Gramy",
+    "POUNDS": "Funty",
+    "OUNCES": "Uncje"
+  },
+  "SAMPLES": {
+    "KM_TO_M": "1 Kilometr = 1000 Metrów",
+    "M_TO_FEET": "1 Metr = 3.281 Stopy",
+    "M_TO_INCHES": "1 Metr = 39.37 Cali",
+    "MILES_TO_KM": "1 Mila = 1.609 Kilometrów",
+    "IN_TO_FEET": "12 Cali = 1 Stopa",
+    "FEET_TO_MILES": "5280 Stóp = 1 Mila",
+    "C_TO_F": "0°C = 32°F",
+    "C_TO_K": "0°C = 273.15 K",
+    "F_TO_C": "32°F = 0°C",
+    "K_TO_F": "0 K = -459.67°F",
+    "L_TO_ML": "1 Litr = 1000 Mililitrów",
+    "L_TO_GAL": "1 Litr = 0.2642 Galonów",
+    "CUP_TO_L": "1 Kubek = 0.2366 Litra",
+    "GAL_TO_ML": "1 Galon = 3785.41 Mililitrów",
+    "KG_TO_G": "1 Kilogram = 1000 Gramów",
+    "KG_TO_LB": "1 Kilogram = 2.205 Funtów",
+    "LB_TO_OZ": "1 Funt = 16 Uncji",
+    "OZ_TO_G": "1 Uncja = 28.35 Grama"
+  },
+  "TABS": {
+    "LENGTH": "Długość",
+    "WEIGHT": "Waga",
+    "VOLUME": "Objętość",
+    "TEMPERATURE": "Temperatura"
+  }
+}

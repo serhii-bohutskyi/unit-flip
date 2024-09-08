@@ -1,0 +1,59 @@
+{
+  "META": {
+    "TITLE": "Best Unit Converter - Convert Length, Weight, Volume & Temperature",
+    "DESCRIPTION": "Easily convert length, weight, volume, and temperature with our free unit converter tool. Supports all major units.",
+    "KEYWORDS": "unit converter, length converter, weight converter, volume converter, temperature converter"
+  },
+  "TITLE": "Unit Converter",
+  "HEADER": {
+    "TITLE": "All-in-One Unit Converter",
+    "SUBTITLE": "Easily convert Length, Weight, Volume, and Temperature in just a few clicks."
+  },
+  "PLACEHOLDER": {
+    "ENTER_VALUE": "Enter value"
+  },
+  "UNITS": {
+    "METERS": "Meters",
+    "FEET": "Feet",
+    "INCHES": "Inches",
+    "KILOMETERS": "Kilometers",
+    "MILES": "Miles",
+    "CELSIUS": "Celsius",
+    "FAHRENHEIT": "Fahrenheit",
+    "KELVIN": "Kelvin",
+    "LITERS": "Liters",
+    "MILLILITERS": "Milliliters",
+    "GALLONS": "Gallons",
+    "CUPS": "Cups",
+    "KILOGRAMS": "Kilograms",
+    "GRAMS": "Grams",
+    "POUNDS": "Pounds",
+    "OUNCES": "Ounces"
+  },
+  "SAMPLES": {
+    "KM_TO_M": "1 Kilometer = 1000 Meters",
+    "M_TO_FEET": "1 Meter = 3.281 Feet",
+    "M_TO_INCHES": "1 Meter = 39.37 Inches",
+    "MILES_TO_KM": "1 Mile = 1.609 Kilometers",
+    "IN_TO_FEET": "12 Inches = 1 Foot",
+    "FEET_TO_MILES": "5280 Feet = 1 Mile",
+    "C_TO_F": "0°C = 32°F",
+    "C_TO_K": "0°C = 273.15 K",
+    "F_TO_C": "32°F = 0°C",
+    "K_TO_F": "0 K = -459.67°F",
+    "L_TO_ML": "1 Liter = 1000 Milliliters",
+    "L_TO_GAL": "1 Liter = 0.2642 Gallons",
+    "CUP_TO_L": "1 Cup = 0.2366 Liters",
+    "GAL_TO_ML": "1 Gallon = 3785.41 Milliliters",
+    "KG_TO_G": "1 Kilogram = 1000 Grams",
+    "KG_TO_LB": "1 Kilogram = 2.205 Pounds",
+    "LB_TO_OZ": "1 Pound = 16 Ounces",
+    "OZ_TO_G": "1 Ounce = 28.35 Grams"
+  },
+  "TABS": {
+    "LENGTH": "Length",
+    "WEIGHT": "Weight",
+    "VOLUME": "Volume",
+    "TEMPERATURE": "Temperature"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "META": {
+    "TITLE": "Melhor Conversor de Unidades - Converter Comprimento, Peso, Volume e Temperatura",
+    "DESCRIPTION": "Converta facilmente comprimento, peso, volume e temperatura com nossa ferramenta gratuita de conversão de unidades. Suporta todas as principais unidades.",
+    "KEYWORDS": "conversor de unidades, conversor de comprimento, conversor de peso, conversor de volume, conversor de temperatura"
+  },
+  "TITLE": "Conversor de Unidades",
+  "HEADER": {
+    "TITLE": "Conversor de Unidades Tudo-em-Um",
+    "SUBTITLE": "Converta facilmente Comprimento, Peso, Volume e Temperatura com apenas alguns cliques."
+  },
+  "PLACEHOLDER": {
+    "ENTER_VALUE": "Insira o valor"
+  },
+  "UNITS": {
+    "METERS": "Metros",
+    "FEET": "Pés",
+    "INCHES": "Polegadas",
+    "KILOMETERS": "Quilômetros",
+    "MILES": "Milhas",
+    "CELSIUS": "Celsius",
+    "FAHRENHEIT": "Fahrenheit",
+    "KELVIN": "Kelvin",
+    "LITERS": "Litros",
+    "MILLILITERS": "Mililitros",
+    "GALLONS": "Galões",
+    "CUPS": "Copos",
+    "KILOGRAMS": "Quilogramas",
+    "GRAMS": "Gramas",
+    "POUNDS": "Libras",
+    "OUNCES": "Onças"
+  },
+  "SAMPLES": {
+    "KM_TO_M": "1 Quilômetro = 1000 Metros",
+    "M_TO_FEET": "1 Metro = 3.281 Pés",
+    "M_TO_INCHES": "1 Metro = 39.37 Polegadas",
+    "MILES_TO_KM": "1 Milha = 1.609 Quilômetros",
+    "IN_TO_FEET": "12 Polegadas = 1 Pé",
+    "FEET_TO_MILES": "5280 Pés = 1 Milha",
+    "C_TO_F": "0°C = 32°F",
+    "C_TO_K": "0°C = 273.15 K",
+    "F_TO_C": "32°F = 0°C",
+    "K_TO_F": "0 K = -459.67°F",
+    "L_TO_ML": "1 Litro = 1000 Mililitros",
+    "L_TO_GAL": "1 Litro = 0.2642 Galões",
+    "CUP_TO_L": "1 Copo = 0.2366 Litros",
+    "GAL_TO_ML": "1 Galão = 3785.41 Mililitros",
+    "KG_TO_G": "1 Quilograma = 1000 Gramas",
+    "KG_TO_LB": "1 Quilograma = 2.205 Libras",
+    "LB_TO_OZ": "1 Libra = 16 Onças",
+    "OZ_TO_G": "1 Onça = 28.35 Gramas"
+  },
+  "TABS": {
+    "LENGTH": "Comprimento",
+    "WEIGHT": "Peso",
+    "VOLUME": "Volume",
+    "TEMPERATURE": "Temperatura"
+  }
+}
