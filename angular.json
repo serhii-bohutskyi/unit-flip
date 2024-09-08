@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "unit-converter": {
+    "unit-flip": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/unit-converter",
+            "outputPath": "dist/unit-flip",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "unit-converter:build:production"
+              "buildTarget": "unit-flip:build:production"
             },
             "development": {
-              "buildTarget": "unit-converter:build:development"
+              "buildTarget": "unit-flip:build:development"
             }
           },
           "defaultConfiguration": "development"

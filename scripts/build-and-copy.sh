@@ -36,7 +36,7 @@ fi
 
 # Copy the build output to the docs directory
 echo "Copying build output to $DEST_DIR..."
-cp -r "$ANGULAR_APP_DIR/dist/qr-code-generator/browser/"* "$DEST_DIR/"
+cp -r "$ANGULAR_APP_DIR/dist/unit-flip/browser/"* "$DEST_DIR/"
 
 # Clean up the temporary directory
 echo "Cleaning up temporary files..."

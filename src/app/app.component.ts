@@ -90,6 +90,6 @@ export class AppComponent implements OnInit {
 
     // Update Open Graph URL and image (if language-dependent)
     this.meta.updateTag({ property: 'og:url', content: window.location.href }); // Update OG URL based on the current page
-    this.meta.updateTag({ property: 'og:image', content: 'https://yourdomain.com/images/unit-converter.jpg' }); // Update OG image
+    this.meta.updateTag({ property: 'og:image', content: 'https://unit-flip.com/apple-touch-icon.png' }); // Update OG image
   }
 }
